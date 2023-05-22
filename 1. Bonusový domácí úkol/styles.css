@@ -1,0 +1,94 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  background: #c8e9fe;
+}
+
+.person-name-heading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.person-name:hover {
+  text-decoration: underline;
+}
+
+/* <!-- ------------- SEKCE OSOBNÍCH INFORMACÍ ------------- --> */
+
+.personal-info-section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #b4d2e5, #d6f9ff);
+  box-shadow: 20px 20px 60px #aac6d8, -20px -20px 60px #e6ffff;
+  width: clamp(55rem, 45vw, 70rem);
+  padding: 1rem;
+}
+
+.personal-info-column-header {
+  font-size: 25px;
+  margin: 0rem;
+  float: left;
+  text-decoration: underline;
+}
+
+.profile-image {
+  margin: 0rem 0rem 0rem 5rem;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #d6f9ff, #b4d2e5);
+  box-shadow: 5px 5px 8px #acc8da, -5px -5px 8px #e4ffff;
+}
+
+.button {
+  width: fit-content;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #b4d2e5, #d6f9ff);
+  box-shadow: 5px 5px 8px #acc8da, -5px -5px 8px #e4ffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* <!-- ------------- SEKCE PRACOVNÍCH ZKUŠENOSTÍ ------------- --> */
+
+.work-experience-heading {
+  text-decoration: underline;
+}
+
+.work-experience-section {
+  /* display: flex; */
+  justify-content: center;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #b4d2e5, #d6f9ff);
+  box-shadow: 20px 20px 60px #aac6d8, -20px -20px 60px #e6ffff;
+  width: clamp(20rem, 25vw, 30rem);
+  /* min-width: 5rem; */
+  padding: 1rem;
+}
+
+/* <!-- ------------- SEKCE PRACOVNÍCH DOVEDNOSTÍ ------------- --> */
+
+.work-skills-heading {
+  text-decoration: underline;
+}
+
+.work-skills-section {
+  justify-content: center;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #b4d2e5, #d6f9ff);
+  box-shadow: 20px 20px 60px #aac6d8, -20px -20px 60px #e6ffff;
+  width: clamp(20rem, 25vw, 30rem);
+  padding: 1rem;
+}
